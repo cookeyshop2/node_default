@@ -1,4 +1,4 @@
-# node.js 초기 설정
+# node.js default
 
 > 사용중인 노드 프로젝트의 초기 시작 설정들을 모아놓은 Repository
 

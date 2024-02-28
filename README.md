@@ -4,7 +4,7 @@
 
 ### Express
 
-[참고 문서 : express-generator - Node.js + Express 프로젝트 생성하기](https://jistol.github.io/nodejs/2017/09/07/express-generator/)
+- [참고 문서 : express-generator - Node.js + Express 프로젝트 생성하기](https://jistol.github.io/nodejs/2017/09/07/express-generator/)
 
 ```
 npm install

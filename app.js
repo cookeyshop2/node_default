@@ -11,6 +11,7 @@ const app = express();
 app.set('port',process.env.PORT || 9000);
 //app.set('port,포트) : 서버가 실행될 포트 설정
 
+// view engine setup
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 

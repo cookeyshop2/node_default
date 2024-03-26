@@ -33,11 +33,9 @@ app.use(session({
 
 app.use((req, res, next) => {
     console.log('모든 요청에 다 실행됩니다.');
+    next();
 });
 
-app.get('/',(req,res)=>{
-    res.send('Hello, Express');
-});
 /*app.get(주소, 라우터) : 주소에 대한 GET요청이 올 때 어떤 동작을 할지 적는 부분
 ex) app.post, app.patch, app.put, app.delete, app.options
 express에서는 http와 다르게 res.write, rew.end 대신 res.send 사용
@@ -47,3 +45,6 @@ app.listen(app.get('port'),()=>{
     console.log(app.get('port'),'번 포트에서 대기 중');
 });
 
+app.get('/',(req,res)=>{
+    res.send('Hello, Express');
+});
